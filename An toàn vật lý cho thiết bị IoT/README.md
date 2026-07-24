@@ -4,12 +4,11 @@
 
 Trong hệ thống IoT, thiết bị đầu cuối thường triển khai ở các vị trí công cộng, môi trường mở (ngoài trời, hành lang), khiến chúng dễ bị kẻ tấn công tiếp cận trực tiếp về mặt vật lý. Nếu không có biện pháp bảo vệ phần cứng, mọi giải pháp mã hóa phần mềm đều có thể bị vô hiệu hóa khi kẻ gian trích xuất dữ liệu/firmware trực tiếp từ bo mạch qua các cổng giao tiếp hở.
 
----
+
 
 ## 2. Thành viên thực hiện
 Họ và tên: Phan Ngọc Ân
 MSSV: 231A010546
----
 
 ## 3. Mục tiêu
 
@@ -20,7 +19,7 @@ MSSV: 231A010546
 - Xây dựng Checklist bảo mật theo OWASP ISVS.
 - Đề xuất các biện pháp nâng cao an toàn vật lý cho thiết bị IoT.
 
----
+
 
 ## 4. Thiết bị nghiên cứu
 
@@ -37,7 +36,7 @@ Các thành phần được nghiên cứu:
 - Wi-Fi/Bluetooth
 - Reset Circuit
 
----
+
 
 ## 5. Nguồn tài liệu đã sử dụng
 
@@ -59,7 +58,7 @@ Các thành phần được nghiên cứu:
 - OWASP IoT Security Verification Standard
 - ESP-IDF Programming Guide
 
----
+
 
 ## 6. Phương pháp thực hiện
 
@@ -70,7 +69,7 @@ Các thành phần được nghiên cứu:
 - Xây dựng Checklist bảo mật theo OWASP ISVS.
 - Đề xuất các biện pháp giảm thiểu rủi ro.
 
----
+
 
 ## 7. Cách chạy / sử dụng
 
@@ -83,7 +82,7 @@ Các thành phần được nghiên cứu:
 3. Mở thư mục `references/` để xem tài liệu tham khảo.
 4. Mở thư mục `results/` để xem sơ đồ và hình ảnh minh chứng.
 
----
+
 
 ## 8. Kết quả đạt được
 
@@ -96,62 +95,3 @@ Sau khi hoàn thành đề tài, nhóm dự kiến đạt được:
 - Phân tích Secure Boot và Flash Encryption.
 - Báo cáo và slide trình bày.
 
----
-
-## 9. Ảnh minh chứng
-
-Các hình ảnh minh chứng được lưu trong thư mục:
-
-```text
-results/
-├── screenshots/
-└── diagrams/
-```
-
-Ví dụ:
-
-- Sơ đồ phần cứng ESP32.
-- Ảnh repository GitHub.
-- Ảnh minh họa các cổng UART/JTAG.
-- Bảng Risk Register.
-- Checklist bảo mật.
-
----
-
-## 10. Giới hạn an toàn
-
-Đề tài chỉ phục vụ cho mục đích học tập và nghiên cứu.
-
-Nhóm **không**:
-
-- Tấn công thiết bị thật.
-- Tháo rời hoặc làm hỏng thiết bị.
-- Khai thác hệ thống khi chưa được cho phép.
-- Thực hiện các hành vi vi phạm pháp luật hoặc đạo đức nghề nghiệp.
-
-Toàn bộ nội dung chỉ dừng ở mức phân tích, đánh giá và đề xuất giải pháp nhằm nâng cao an toàn vật lý cho thiết bị IoT.
-
----
-
-## 11. Cấu trúc Repository
-
-```text
-de-tai-31-an-toan-vat-ly-cho-thiet-bi-iot/
-│
-├── README.md
-├── report/
-├── slides/
-├── src/
-├── configs/
-├── data/
-├── results/
-│   ├── diagrams/
-│   └── screenshots/
-└── references/
-```
-
----
-
-## 12. Giấy phép
-
-Repository được xây dựng phục vụ mục đích học tập và nghiên cứu tại trường đại học. Không sử dụng cho các hoạt động khai thác trái phép hoặc gây ảnh hưởng đến hệ thống, thiết bị của tổ chức và cá nhân khác.
