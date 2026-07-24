@@ -1,1 +1,24 @@
+# Kết quả mô phỏng
 
+## Mô hình
+- ESP32 DevKit V1
+- Push Button (Tamper Switch)
+- LED xanh
+- LED đỏ
+- Buzzer
+
+## Kết quả
+
+- Khi hệ thống khởi động:
+  - LED xanh sáng.
+  - LED đỏ tắt.
+  - Buzzer tắt.
+
+- Khi nhấn nút (giả lập tháo vỏ thiết bị):
+  - LED xanh tắt.
+  - LED đỏ sáng.
+  - Buzzer kêu.
+  - Serial Monitor hiển thị cảnh báo.
+
+- Khi thả nút:
+  - Hệ thống trở về trạng thái an toàn.
